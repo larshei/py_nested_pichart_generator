@@ -15,7 +15,7 @@ chart_config = {
 
     "sections" : [
         {
-            "name": "Embedded",
+            "name": "Section1",
             "weight" : 1,
             "donuts": [
                 { "elements": [ 1 ] },
@@ -25,7 +25,7 @@ chart_config = {
             ]
         },
         {
-            "name": "Mobile",
+            "name": "Section2",
             "weight" : 1,
             "donuts": [
                 { "elements": [ 1 ] },
@@ -34,7 +34,7 @@ chart_config = {
             ]
         },
         {
-            "name": "Commissioning",
+            "name": "Section3",
             "weight" : 1,
             "donuts": [
                 { "elements": [ 1 ] },
@@ -44,7 +44,7 @@ chart_config = {
             ]
         },
         {
-            "name": "Service",
+            "name": "Section4",
             "weight" : 1,
             "donuts": [
                 { "elements": [ 1 ] },
