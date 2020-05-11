@@ -4,7 +4,7 @@ run:
 	python3 run.py
 
 setup:
-	bash setupPythonVenvAndPackages.sh
+	bash scripts/setupPythonVenvAndPackages.sh
 
 freeze:
-	bash freezeDependencies.sh
+	bash scripts/freezeDependencies.sh

@@ -22,7 +22,6 @@ def calculate_donut_section_weight(section, donut_number):
         total_weight = total_weight + element_list[element]
     return total_weight
 
-
 def generate_donut_elements(sections, donut_number, sections_total_weight):
     element_sizes  = []
     element_colors = []
@@ -47,7 +46,6 @@ def generate_donut_elements(sections, donut_number, sections_total_weight):
                 element_sizes.append(element_size)
                 element_colors.append(element_color)
     return (element_sizes, element_colors)
-
 
 def add_donut_to_plot(axis, donuts, donut_number, donut_radius):
     donut_radius_next =  donut_radius + 0.8 / (donut_number + 1) + 0.2

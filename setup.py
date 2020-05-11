@@ -11,7 +11,6 @@ chart_config = {
     "scale_for_highest_element_ring" : False,
     "start_angle" : 270,
     "color_by_ring" : True,
-    "show_labels": False,
 
     "sections" : [
         {
